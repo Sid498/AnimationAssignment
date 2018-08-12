@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sid.animationassignment.MainActivity">
+
+    <TextView
+        android:text="S"
+        android:textStyle="bold"
+        android:paddingTop="3dp"
+        android:paddingLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:id="@+id/tvS" />
+
+    <TextView
+        android:text="I"
+        android:textStyle="bold"
+        android:paddingTop="3dp"
+        android:layout_marginLeft="2dp"
+        android:paddingLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape2"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tvS"
+        android:id="@+id/tvI" />
+
+    <TextView
+        android:text="D"
+        android:textStyle="bold"
+        android:paddingTop="3dp"
+        android:layout_marginLeft="2dp"
+        android:paddingLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tvD"
+        android:layout_toEndOf="@+id/tvI" />
+
+    <TextView
+        android:text="A"
+        android:textStyle="bold"
+        android:paddingTop="3dp"
+        android:layout_marginLeft="2dp"
+        android:paddingLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tvTest"
+        android:layout_toEndOf="@+id/tvD" />
+
+</RelativeLayout>
